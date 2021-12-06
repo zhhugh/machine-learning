@@ -22,20 +22,8 @@ $$
 2. $function$是向量或者矩阵，$function$ 中的**每个元素**都是 $input$ **中所有元素组成的标量函数**。
 
 例如：$\boldsymbol{X}_{3 \times 2}=\left(x_{i j}\right)_{i=1, j=1}^{3,2}$ ，则：
-$$
-\begin{aligned}
-\boldsymbol{F}_{3 \times 2}(\boldsymbol{X}) &=\left[\begin{array}{ll}
-f_{11}(\boldsymbol{X}) & f_{12}(\boldsymbol{X}) \\
-f_{21}(\boldsymbol{X}) & f_{22}(\boldsymbol{X}) \\
-f_{31}(\boldsymbol{X}) & f_{32}(\boldsymbol{X})
-\end{array}\right] \\
-&=\left[\begin{array}{cc}
-x_{11}+x_{12}+x_{21}+x_{22}+x_{31}+x_{32} & 2 x_{11}+x_{12}+x_{21}+x_{22}+x_{31}+x_{32} \\
-3 x_{11}+x_{12}+x_{21}+x_{22}+x_{31}+x_{32} & 4 x_{11}+x_{12}+x_{21}+x_{22}+x_{31}+x_{32} \\
-5 x_{11}+x_{12}+x_{21}+x_{22}+x_{31}+x_{32} & 6 x_{11}+x_{12}+x_{21}+x_{22}+x_{31}+x_{32}
-\end{array}\right]
-\end{aligned}
-$$
+
+![image-20211206142201642](images/image-20211206142201642.png)
 
 #### 矩阵求导
 
