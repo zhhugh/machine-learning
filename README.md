@@ -12,16 +12,9 @@ $$
 
 1. $function$ 是标量， 则$function $ 是 $input$ **所有元素所组成的函数**。
 
-例如：$
-\boldsymbol{X}_{3 \times 2}=\left(x_{i j}\right)_{i=1, j=1}^{3,2}
-$ ，则有：
-$$
-f(\boldsymbol{X})=a_{1} x_{11}^{2}+a_{2} x_{12}^{2}+a_{3} x_{21}^{2}+a_{4} x_{22}^{2}+a_{5} x_{31}^{2}+a_{6} x_{32}^{2}
-$$
+![image-20211206142418097](images/image-20211206142418097.png)
 
 2. $function$是向量或者矩阵，$function$ 中的**每个元素**都是 $input$ **中所有元素组成的标量函数**。
-
-例如：$\boldsymbol{X}_{3 \times 2}=\left(x_{i j}\right)_{i=1, j=1}^{3,2}$ ，则：
 
 ![image-20211206142201642](images/image-20211206142201642.png)
 
