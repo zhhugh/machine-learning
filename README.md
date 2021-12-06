@@ -168,18 +168,18 @@ print(model.variables)
 
 
 
-<img src="C:\Users\zhouhan\AppData\Roaming\Typora\typora-user-images\image-20211201180804897.png" alt="image-20211201180804897" style="zoom:50%;" />
+<img src="images/image-20211201180804897-16387715243161.png" alt="image-20211201180804897" style="zoom:50%;" />
 
 
 
-- 该向量中的每个元素均在 ![[0, 1]](https://tf.wiki/_images/math/1a9360a164e54bf10a49ee770650287ce1e13124.png) 之间
+- 该向量中的每个元素均在 [0, 1] 之间
 - 该向量的所有元素之和为1
 
 
 
 ## 交叉熵
 
-![image-20211201181210619](C:\Users\zhouhan\AppData\Roaming\Typora\typora-user-images\image-20211201181210619.png)
+![image-20211201181210619](images/image-20211201181210619-16387715286592.png)
 
 - `p(xi)`: x是第i类的真实概率
 
